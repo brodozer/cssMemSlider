@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -113,12 +114,7 @@ label .circle {
     background: none;
     border-color: #565bff;
 }
-label,
-.active,
-img {
-    -moz-user-select: none;
-    -webkit-user-select: none;
-}
+
 input {
     display: none;
 }
@@ -141,4 +137,19 @@ input {
 #slide5:checked ~ .slides .inner,
 #slide5:checked ~ .slider-bottom .inner {
     margin-left: -400%;
+}
+@media screen and (max-width: 420px) {
+    .slides {
+        padding: 10px;
+    }
+    .slider-bottom {
+        flex-direction: column;
+    }
+    .slides-text {
+        order: 2;
+        width: 100%;
+    }
+    .active {
+        order: 1;
+    }
 }
