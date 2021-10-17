@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="main.css" />
+        <title>cssMemSlider</title>
+    </head>
+    <body>
+        <section class="slider">
+            <input type="radio" name="slider" id="slide1" checked />
+            <input type="radio" name="slider" id="slide2" />
+            <input type="radio" name="slider" id="slide3" />
+            <input type="radio" name="slider" id="slide4" />
+            <input type="radio" name="slider" id="slide5" />
+            <div class="slides">
+                <div class="overflow">
+                    <div class="inner">
+                        <article>
+                            <img src="img/slide1.jpeg" />
+                        </article>
+                        <article>
+                            <img src="img/slide2.jpeg" />
+                        </article>
+                        <article>
+                            <img src="img/slide3.jpeg" />
+                        </article>
+                        <article>
+                            <img src="img/slide4.jpeg" />
+                        </article>
+                        <article>
+                            <img src="img/slide5.jpeg" />
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-bottom">
+                <div class="slides-text">
+                    <div class="overflow">
+                        <div class="inner">
+                            <p>Даже страшно подумать, за что сидит этот кот</p>
+                            <p>Он вас не знает, но, вероятнее всего, уже вас не любит</p>
+                            <p>Когда с виду ты милая девочка, но в душе шальная императрица</p>
+                            <p>Я пришел домой и увидел это</p>
+                            <p>Его ухмылка заставляет содрогнуться</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="active">
+                    <label for="slide1">
+                        <span class="circle"></span>
+                    </label>
+                    <label for="slide2">
+                        <span class="circle"></span>
+                    </label>
+                    <label for="slide3">
+                        <span class="circle"></span>
+                    </label>
+                    <label for="slide4">
+                        <span class="circle"></span>
+                    </label>
+                    <label for="slide5">
+                        <span class="circle"></span>
+                    </label>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
