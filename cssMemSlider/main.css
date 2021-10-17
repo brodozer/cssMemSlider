@@ -86,7 +86,7 @@ label .circle {
 }
 
 .slides-text {
-    width: 50%;
+    width: 70%;
 }
 
 .slides-text .inner {
@@ -99,7 +99,7 @@ label .circle {
     text-align: left;
     float: left;
 }
-/* Animation */
+
 .slides .inner,
 .slides-text .inner {
     transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
