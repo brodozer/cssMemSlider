@@ -7,5 +7,65 @@
         <link rel="stylesheet" href="main.css" />
         <title>cssMemSlider</title>
     </head>
-    <body></body>
+    <body>
+        <section class="slider">
+            <input type="radio" name="slider" id="slide1" checked />
+            <input type="radio" name="slider" id="slide2" />
+            <input type="radio" name="slider" id="slide3" />
+            <input type="radio" name="slider" id="slide4" />
+            <input type="radio" name="slider" id="slide5" />
+            <div class="slides">
+                <div class="overflow">
+                    <div class="inner">
+                        <article>
+                            <img src="http://placehold.it/1280x720/ffffff.gif&text=slide1" />
+                        </article>
+                        <article>
+                            <img src="http://placehold.it/1280x720/ffffff.gif&text=slide2" />
+                        </article>
+                        <article>
+                            <img src="http://placehold.it/1280x720/ffffff.gif&text=slide3" />
+                        </article>
+                        <article>
+                            <img src="http://placehold.it/1280x720/ffffff.gif&text=slide4" />
+                        </article>
+                        <article>
+                            <img src="http://placehold.it/1280x720/ffffff.gif&text=slide5" />
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-bottom">
+                <div class="slides-text">
+                    <div class="overflow">
+                        <div class="inner">
+                            <p>slide1</p>
+                            <p>slide2</p>
+                            <p>slide3</p>
+                            <p>slide4</p>
+                            <p>slide5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="active">
+                    <label for="slide1">
+                        <span class="circle"></span>
+                    </label>
+                    <label for="slide2">
+                        <span class="circle"></span>
+                    </label>
+                    <label for="slide3">
+                        <span class="circle"></span>
+                    </label>
+                    <label for="slide4">
+                        <span class="circle"></span>
+                    </label>
+                    <label for="slide5">
+                        <span class="circle"></span>
+                    </label>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
